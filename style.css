@@ -423,7 +423,7 @@ section .title::after {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: crimson !important;
+  background: #fff !important;
 }
 
 /* contact section styling */
