@@ -36,7 +36,7 @@ const HeroSection = () => {
           {/* Social buttons with reduced radius */}
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
             <SocialButton 
-              href="https://github.com" 
+              href="https://github.com/Dineshraja03" 
               className="bg-github rounded-md"
               aria-label="GitHub Profile"
             >
@@ -45,7 +45,7 @@ const HeroSection = () => {
             </SocialButton>
             
             <SocialButton 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/mdineshraja03/" 
               className="bg-linkedin rounded-md"
               aria-label="LinkedIn Profile"
             >
@@ -54,7 +54,7 @@ const HeroSection = () => {
             </SocialButton>
             
             <SocialButton 
-              href="#" 
+              href="https://drive.google.com/file/d/11Ng2S-bboGf46JAgbTfv4MGoQev1yRpH/view?usp=sharing" 
               className="bg-cv rounded-md"
               aria-label="Download CV"
             >
