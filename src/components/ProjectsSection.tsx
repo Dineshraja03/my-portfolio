@@ -3,7 +3,8 @@ import { cn } from '@/lib/utils';
 import marvelSnaps from '../assest/project img/marvelsnaps.png';
 import iceCreamTown from '../assest/project img/ice cream town.png';
 import safetyFirst from '../assest/project img/safetyfirst.png';
-
+import weatherApp from '../assest/project img/weather.png';
+import portfolioImage from '../assest/project img/portfolio.png';
 const ProjectsSection = () => {
   return (
     <section id="projects" className="bg-gradient-to-br from-[#f9f9f9] to-white dark:from-gray-900 dark:to-gray-800 py-16 md:py-24">
@@ -82,30 +83,38 @@ const projects = [
     title: "Marvel Snaps",
     description: "A React.js-based photographer portfolio site featuring an attractive UI, optimized code, WhatsApp API integration, and hosted on Vercel for fast performance.",
     image: marvelSnaps,
-    technologies: ["React", "CSS","Github", "Vercel"],
-    link: "#"
+    technologies: ["React", "Javascript","CSS","Github", "Vercel", "Cursor AI"],
+    link: "http://marvelsnaps.in/"
   },
   {
     title: "Ice Cream Town",
     description: "A delightful ice cream shop website with a menu, online ordering, and a attractive design.",
     image: iceCreamTown,
-    technologies: ["React", "CSS", "Github", "Vercel"],
-    link: "#"
+    technologies: ["React", "JSX", "CSS", "Github", "Vercel", "Github Copilot"],
+    link: "http://icecreamtown.in/"
   },
   {
     title: "Safety First",
     description: "A Mental Well-being Platform for Women and Children with real-time messaging, post sharing, Safety resources and Free Mental Health Resources.",
     image: safetyFirst,
-    technologies: ["React", "Firebase", "CSS", "Github", "Vercel"],
-    link: "#"
+    technologies: ["React","Firebase", "CSS", "Github", "Vercel", "Github Copilot"],
+    link: "https://projectsafetyfirst.vercel.app/"
   },
   {
-    title: "Task Management Tool",
-    description: "A collaborative project management tool with task tracking, team management, and reporting features.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800",
-    technologies: ["Vue.js", "Laravel", "MySQL", "Tailwind CSS"],
-    link: "#"
-  }
+    title: "React Weather App",
+    description: "A weather application built with React.js, providing real-time weather updates and forecasts by using OpenWeatherMap API.",
+    image: weatherApp,
+    technologies: ["React","OpenWeather API", "Github", "Vercel", "Github Copilot"],
+    link: "https://weather-five-rho.vercel.app/"
+  }, 
+  {
+  title: "Personal Portfolio Website",
+  description: "A fully responsive portfolio website built using React.js and Typescript to showcase projects, skills, and contact information.",
+  image: portfolioImage, // Replace with your actual image variable or path
+  technologies: ["React", "Tailwaind CSS","Typescript","GitHub", "Vercel", "Lovable"],
+  link: "https://dineshraja.vercel.app/" // Replace with your actual portfolio URL
+}
+
 ];
 
 export default ProjectsSection;
