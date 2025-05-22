@@ -1,5 +1,8 @@
 
 import { cn } from '@/lib/utils';
+import marvelSnaps from '../assest/project img/marvelsnaps.png';
+import iceCreamTown from '../assest/project img/ice cream town.png';
+import safetyFirst from '../assest/project img/safetyfirst.png';
 
 const ProjectsSection = () => {
   return (
@@ -77,23 +80,23 @@ const ProjectCard = ({ title, description, image, technologies, link }: ProjectC
 const projects = [
   {
     title: "Marvel Snaps",
-    description: "A full-featured e-commerce platform with payment integration, user accounts, and responsive design.",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=800",
-    technologies: ["React", "Github", "Vercel"],
+    description: "A React.js-based photographer portfolio site featuring an attractive UI, optimized code, WhatsApp API integration, and hosted on Vercel for fast performance.",
+    image: marvelSnaps,
+    technologies: ["React", "CSS","Github", "Vercel"],
     link: "#"
   },
   {
-    title: "Finance Dashboard",
-    description: "An interactive dashboard for financial data visualization with real-time updates and analytics.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-    technologies: ["React", "D3.js", "Firebase", "Material UI"],
+    title: "Ice Cream Town",
+    description: "A delightful ice cream shop website with a menu, online ordering, and a attractive design.",
+    image: iceCreamTown,
+    technologies: ["React", "CSS", "Github", "Vercel"],
     link: "#"
   },
   {
-    title: "Social Media App",
-    description: "A modern social networking platform with real-time messaging, post sharing, and user profiles.",
-    image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=800",
-    technologies: ["React Native", "Firebase", "Redux", "Express"],
+    title: "Safety First",
+    description: "A Mental Well-being Platform for Women and Children with real-time messaging, post sharing, Safety resources and Free Mental Health Resources.",
+    image: safetyFirst,
+    technologies: ["React", "Firebase", "CSS", "Github", "Vercel"],
     link: "#"
   },
   {

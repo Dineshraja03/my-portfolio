@@ -1,6 +1,8 @@
 
 import { Github, Linkedin, FileText, Download } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import astro from '../assest/hero/astro.gif';
+
 
 const HeroSection = () => {
   return (
@@ -14,7 +16,7 @@ const HeroSection = () => {
           
           <div className="relative w-64 h-64 sm:w-80 sm:h-80">
             <img 
-              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=600" 
+              src="https://cliply.co/wp-content/uploads/2019/07/371907670_SUPERHERO_400px.gif"
               alt="Coding illustration" 
               className="w-full h-full object-cover rounded-full"
             />
