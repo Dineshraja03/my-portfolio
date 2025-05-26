@@ -105,7 +105,7 @@ const skillsData = {
   ],
   ai: [
     { name: 'GitHub Copilot', icon: <BsPuzzle />, color: 'bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700/20 dark:to-gray-600/20', glowColor: 'text-gray-500' },
-    { name: 'Coding AI', icon: <TbBrandOpenai />, color: 'bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20', glowColor: 'text-blue-500' },
+    { name: 'Cursor AI', icon: <TbBrandOpenai />, color: 'bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20', glowColor: 'text-blue-500' },
     { name: 'UX Pilot', icon: <TbPlane />, color: 'bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20', glowColor: 'text-purple-500' },
     { name: 'Lovable', icon: <BsHeartFill />, color: 'bg-gradient-to-br from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-800/20', glowColor: 'text-red-500' },
     { name: 'ChatGPT', icon: <TbBrandOpenai />, color: 'bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-800/20', glowColor: 'text-green-500' },
